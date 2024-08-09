@@ -19,4 +19,9 @@ CREATE TABLE equipments (
     equip_id BIGSERIAL PRIMARY KEY,
     name VARCHAR(255) NOT NULL
 );
+CREATE TABLE staff (
+    staff_id BIGSERIAL PRIMARY KEY,
+    staff_name VARCHAR(255) NOT NULL
+);
+
 
