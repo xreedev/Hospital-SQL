@@ -94,15 +94,3 @@ VALUES
 (6, 9),
 (20, 10);
 
-INSERT INTO staff_procedure_salary (salary_per_hour, staff_id, procedure_id) 
-VALUES 
-(1000, 1, 1),
-(300, 1, 2),
-(50, 2, 3),
-(60, 2, 4),
-(1200, 3, 5),
-(100, 3, 6),
-(200, 4, 7),
-(800, 4, 8),
-(70, 5, 9),
-(90, 6, 10);
