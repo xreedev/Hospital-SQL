@@ -17,8 +17,10 @@ CREATE TABLE patient_procedure (
 );
 CREATE TABLE equipments (
     equip_id BIGSERIAL PRIMARY KEY,
-    name VARCHAR(255) NOT NULL
+    equip_name VARCHAR(255) NOT NULL,
+    cost_per_use INTEGER NOT NULL
 );
+
 CREATE TABLE staff (
     staff_id BIGSERIAL PRIMARY KEY,
     staff_name VARCHAR(255) NOT NULL
