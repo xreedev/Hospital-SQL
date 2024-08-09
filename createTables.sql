@@ -15,3 +15,8 @@ CREATE TABLE patient_procedure (
     FOREIGN KEY (patient_id) REFERENCES patients(patient_id) ON DELETE CASCADE,
     FOREIGN KEY (procedure_id) REFERENCES procedure(procedure_id) ON DELETE CASCADE
 );
+CREATE TABLE equipments (
+    equip_id BIGSERIAL PRIMARY KEY,
+    name VARCHAR(255) NOT NULL
+);
+
