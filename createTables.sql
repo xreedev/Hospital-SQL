@@ -23,5 +23,13 @@ CREATE TABLE staff (
     staff_id BIGSERIAL PRIMARY KEY,
     staff_name VARCHAR(255) NOT NULL
 );
+CREATE TABLE staff_procedure_salary (
+    id BIGSERIAL PRIMARY KEY,
+    salary_per_hour INTEGER NOT NULL,
+    staff_id BIGINT NOT NULL,
+    procedure_id BIGINT NOT NULL,
+    FOREIGN KEY (staff_id) REFERENCES staff(staff_id) ON DELETE CASCADE,
+    FOREIGN KEY (procedure_id) REFERENCES procedure(procedure_id) ON DELETE CASCADE
+);
 
 
