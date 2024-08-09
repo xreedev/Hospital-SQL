@@ -9,7 +9,7 @@ CREATE TABLE procedure (
 );
 CREATE TABLE patient_procedure (
     id BIGSERIAL PRIMARY KEY,
-    date TIMESTAMP NOT NULL,
+    start_date TIMESTAMP NOT NULL,
     patient_id BIGINT NOT NULL,
     procedure_id BIGINT NOT NULL,
     FOREIGN KEY (patient_id) REFERENCES patients(patient_id) ON DELETE CASCADE,
