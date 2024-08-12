@@ -36,7 +36,7 @@ CREATE TABLE staff_procedure_salary (
 
 CREATE TABLE quantity (
     id BIGSERIAL PRIMARY KEY,
-    quantity INTEGER NOT NULL,  -- Note the correction from "quanity" to "quantity"
+    quantity INTEGER NOT NULL, 
     equipment_id BIGINT NOT NULL,
     FOREIGN KEY (equipment_id) REFERENCES equipments(equip_id) ON DELETE CASCADE
 );

@@ -12,19 +12,6 @@ VALUES
 ('Sophia Anderson'),
 ('James Thomas');
 
-INSERT INTO procedure (name, duration) 
-VALUES 
-('Surgery', 120),
-('Consultation', 30),
-('X-Ray', 15),
-('Ultrasound', 20),
-('CT Scan', 25),
-('ECG', 10),
-('Blood Test', 5),
-('Anesthesia', 30),
-('Ventilation Check', 15),
-('Defibrillation', 10);
-
 -- Insert Data into `equipments` Table
 INSERT INTO equipments (equip_name, cost_per_use) 
 VALUES 
@@ -39,6 +26,7 @@ VALUES
 ('Defibrillator', 1500),
 ('Blood Pressure Monitor', 80);
 
+-- Insert Data into `procedure` Table
 INSERT INTO procedure (name, duration) 
 VALUES 
 ('Surgery', 120),
