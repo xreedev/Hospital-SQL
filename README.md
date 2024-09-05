@@ -10,15 +10,18 @@
 ## Introduction
 `Hospital-SQL` is a structured database designed to manage hospital operations, including patient records, staff, medical procedures, and equipment. It uses a relational database model, offering efficient data organization and querying capabilities.
 
-## Technologies Used
-### Core Stack:
+Here's the corrected version with **PostgreSQL**:
+
+---
+
+### Technologies Used
 - **SQL**: For creating and managing relational database tables.
-- **MySQL**: As the database management system.
+- **PostgreSQL**: As the database management system.
 - **DBeaver**: For visualizing and managing the database.
 - **Postman**: For API testing and interacting with the database.
 
 ![Technology Stack](https://img.shields.io/badge/SQL-Relational-brightgreen.svg)
-![MySQL](https://img.shields.io/badge/MySQL-8.0-brightgreen.svg)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-13.x-brightgreen.svg)
 ![DBeaver](https://img.shields.io/badge/DBeaver-21.x-brightgreen.svg)
 
 ---
